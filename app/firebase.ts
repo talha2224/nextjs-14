@@ -5,8 +5,7 @@ import { getAnalytics } from "firebase/analytics";
 export const createFirebaseApp = () => {
   const clientCredentials = {
     apiKey: "AIzaSyCpcH84pZMsopqc6jSsWaUDiiMtK4E0Uwc",
-    // authDomain: "kayyo-2378d.firebaseapp.com",
-    authDomail:"next-app-14.netlify.app",
+    authDomain: "kayyo-2378d.firebaseapp.com",
     projectId: "kayyo-2378d",
     storageBucket: "kayyo-2378d.appspot.com",
     messagingSenderId: "438239183645",
